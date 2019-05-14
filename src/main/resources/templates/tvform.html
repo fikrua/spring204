@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:inline="text">
+    the tvshow name was [[${tvshow.name}]].<br/>
+    it is [[${tvshow.type}]].<br/>
+    it could be best described as [[${tvshow.description}]].<br/>
+</p>
+</body>
+</html>
